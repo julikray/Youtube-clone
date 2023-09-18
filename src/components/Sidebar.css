@@ -1,0 +1,33 @@
+.sidebar{
+    flex: 0.2;
+}
+
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* media query */
+
+@media(max-width: 352px) {
+   & .open{
+    display: block;
+   }
+ 
+   
+ }
+
+ @media(max-width :799px){
+    .sidebar{
+        display:none;
+        
+
+    }
+    
+    
+    
+ }

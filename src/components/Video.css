@@ -1,0 +1,98 @@
+.video {
+    flex: 0.8;
+
+
+}
+
+
+.videoimg {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -35px;
+   
+
+}
+
+.videoimg img{
+    border-radius: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.videoinfo {
+    margin-left: 20px;
+}
+
+.video-player iframe {
+    margin: 10px;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+
+
+
+/* media query */
+
+@media (max-width: 799px)
+{
+    .video {
+        flex: 1.6;
+
+    
+    }
+    .video-player iframe {
+        width: 95vw;
+      
+      }
+}
+
+
+@media(max-width : 872px){
+    .video-player iframe {
+       margin: 5px;
+      
+      }
+    
+    
+}
+
+@media (max-width : 496px){
+    .video-player iframe {
+       margin: 2px;
+      
+      }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 658px) {
+    .videoimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+
+    } 
+
+    .videoinfo {
+        margin-left: 2px;
+    }
+
+
+}
+
+@media (max-width : 341px ){
+    .videoimg{
+        width: 90vw;
+        height: auto;
+    }
+}
+
